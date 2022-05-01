@@ -16,9 +16,12 @@ Insertion Sort'un Big O gösterimi: O(n^2)
 ** Soru-3 **
 Best Case: Dizideki sayıların zaten istendiği şekilde sıralı olduğu için algoritma sadece dizideki her elemandan bir kez geçer ve o elemanın doğru yerde olduğunu doğrular. Dolayısıyla best case: N olacaktır.
 Worst Case: N^2. Dizideki elemanların istenilenin tam tersi şeklinde olması halinde bu durum oluşacaktır.
-Average Case: Worst case ile best casein ortalamasını aldığımızda N^2 olarak buluruz.
+Average Case: Worst Case ile Best Case'in ortalamasını aldığımızda N^2 olarak buluruz.
 
 ** Soru-4 **
+18 sayısı average case kapsamına girmektedir.
+
+** Soru-5 **
 [7,3,5,8,2,9,4,15,6] -- n
 [2,3,5,8,7,9,4,15,6] -- n-1 -- 2 ile 7 yer değiştirdi.
 [2,3,5,8,7,9,4,15,6] -- n-2 -- 3 zaten en küçük ikinci sayı olduğu için değişiklik yapılmadı
